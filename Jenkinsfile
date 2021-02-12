@@ -1,7 +1,7 @@
 node{
 def mvn_home
 stage('Git-CheckOut') {
-  git branch: 'main', url: 'https://github.com/sathishiyer/devops301-mindtree-09-Jan-2021.git'
+  git branch: 'main', url: 'https://github.com/sathishiyer/Demo-301-DevOPS.git'
   mvn_home = tool "mvn"
 }
 
